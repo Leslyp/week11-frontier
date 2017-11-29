@@ -1,0 +1,20 @@
+.button {
+	background-color: $color-primary;
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 800;
+	padding: 14px 0;
+	color: $color-white;
+}
+
+.button-secondary {
+	background-color: $color-white;
+	border: 1px solid $color-primary;
+	span {
+		color: $color-primary;
+		font-family: $font-Nexa;
+	}
+}
+
+

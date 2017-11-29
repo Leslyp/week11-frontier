@@ -1,0 +1,41 @@
+.hero {
+	&__image {
+		background-image: url(../img/mobile-hero-bg.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 320px;
+		height: 140px;
+		margin-bottom: 40px;
+	}
+	&__content {
+		text-align: center;
+		.button {
+			width: 290px;
+			height: 45px;
+			margin-bottom: 40px;
+			img {
+				margin-left: 19px;
+			}
+		}
+		span {
+			font-size: 16px;
+			line-height: 24px;
+			margin: 0;
+			display: inline-block;
+		}
+		a {
+			color: $color-blue;
+		}
+	}
+	&__title {
+		margin-bottom: 20px;
+	}
+	&__text {
+		font-size: 20px;
+		line-height: 22px;
+		margin-bottom: 40px;
+		.registered {
+			font-size: 10px;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+.sub-nav {
+	&__list-item {
+		span {
+			font-size: 16px;
+			line-height: 16px;
+			font-family: $font-Nexa;
+			color: $color-black;
+		}
+	}
+	&__right {
+		span {
+			font-size: 16px;
+			line-height: 16px;
+			font-family: $font-Nexa;
+			color: $color-black;
+		}
+		li a {
+			margin-left: 20px;
+			margin-right: 31px;
+			padding: 0;
+		}
+	}
+}
+
+.sub-nav dt, .sub-nav dd, .sub-nav li {
+	margin-left: 0;
+}

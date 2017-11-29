@@ -1,0 +1,16 @@
+footer {
+	background: $color-primary;
+	.button-secondary {
+		width: 290px;
+		height: 45px;
+		margin-bottom: 40px;
+		span {
+			margin: 0 20px;
+		}
+	}
+	p {
+		margin-top: 40px;
+		color: $color-white;
+		line-height: 16px;
+	}
+}

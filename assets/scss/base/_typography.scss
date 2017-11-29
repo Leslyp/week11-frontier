@@ -1,0 +1,49 @@
+html, body {
+	font-size: 16px;
+	color: $color-black;
+	font-family: $font-Nexa;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.line-break {
+	margin: 0;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 36px;
+	color: $color-black;
+	font-family: $font-Nexa;
+}
+
+h2 {
+	font-size: 26px;
+	line-height: 26px;
+	color: $color-black;
+	font-family: $font-Nexa;
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 22px;
+	color: $color-black;
+	font-family: $font-Nexa;
+}
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+	color: $links-primary;
+	font-family: $font-Nexa;
+}
+
+a {
+	font-size: 16px;
+	line-height: 16px;
+	color: $color-black;
+	font-family: $font-Nexa;
+}
+
+
+

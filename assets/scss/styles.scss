@@ -1,0 +1,17 @@
+@import '../../node_modules/zurb-foundation-5/scss/normalize';
+@import '../../node_modules/zurb-foundation-5/scss/foundation/components/accordion';
+@import '../../node_modules/zurb-foundation-5/scss/foundation.scss';
+
+@import 'base/variables';
+@import 'base/typography';
+
+@import 'components/header';
+@import 'components/first-navbar';
+@import 'components/second-navbar';
+@import 'components/sub-nav';
+@import 'components/hero';
+@import 'components/plans';
+@import 'components/buttons';
+@import 'components/section';
+@import 'components/bundles';
+@import 'components/footer';

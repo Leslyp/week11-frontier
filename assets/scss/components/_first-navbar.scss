@@ -1,0 +1,36 @@
+.first-navbar {
+	padding-top: 10px;
+	&__list {
+		display: flex;
+		list-style: none;
+	}
+	&__list-item a {
+		.phone-pic {
+			width: 12px;
+			height: 12px;
+			margin-left: 28px;
+		}
+		.menu {
+			margin-left: 25px;
+		}
+	}
+
+	.first-sub-nav {
+		&__list {
+			display: flex;
+		}
+		&__list-item {
+			list-style: none;
+			span {
+				margin-left: 5px;
+				margin-right: 18px; 
+			}
+			
+		}
+	}
+
+	@media screen and (min-width: 770px) {
+		/* hide in tablet view */
+		display: none;
+	}
+}

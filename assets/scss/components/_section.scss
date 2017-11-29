@@ -1,0 +1,38 @@
+.section {
+	&--first-sub-nav {
+		margin: 8px 0;
+	}
+	&--hero {
+		margin-bottom: 40px;
+	}
+	&--plans {
+		margin: 20px;
+		margin-bottom: 40px;
+		.plan {
+		    margin-top: 20px;
+		}
+	}
+	&--bundle {
+		hr {
+			width: 170px;
+			margin: 0 auto;
+			margin-bottom: 40px;
+		}
+		.bundle__content {
+			padding: 30px;
+		}
+		.bundle__heading {
+			margin-bottom: 20px;
+		}
+		.bundle__image {
+			margin-bottom: 15px;
+		}
+		.bundle__title {
+			margin-bottom: 20px;
+		}
+		.bundle__text {
+			margin-bottom: 40px;
+		}
+	}
+
+}

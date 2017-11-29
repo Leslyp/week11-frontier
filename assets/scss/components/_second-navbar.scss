@@ -1,0 +1,61 @@
+nav {
+	background: transparent;
+	.nav-list {
+		display: flex;
+		list-style: none;
+		&-items {
+			a {
+				margin-left: 20px;
+				margin-right: 5px;
+				line-height: 24px;
+				color: $links-primary;
+			}
+			.logo {
+				margin-left: 30px;
+				margin-right: 50px;
+			}
+			.nav-form {
+				label {
+					display: none;
+				}
+				input {
+					border: 1px solid $border-primary;
+					height: 35px;
+					width: 190px;
+					display: inline-block;
+					margin-right: -7px;
+					margin-left: 35px;
+					border-radius: 4px 0 0 4px;
+					&::placeholder {
+						padding: 6px 0;
+						padding-left: 16px;
+						font-size: 14px;
+						line-height: 20px;
+					}
+				}
+				&__button {
+					background: $background-primary;
+					width: 35px;
+					height: 35px;
+					padding: 0;
+					border: 1px solid $border-primary;
+					top: 1px;
+					margin-left: -30px;
+					border-radius: 0 4px 4px 0;
+				}
+				&__image {
+					width: 13px;
+					height: 13px;
+				}
+			}
+		}
+	}
+}
+
+.second-navbar {
+	display: none;
+	@media screen and (min-width: 770px) {
+		/* reveal second in tablet view */
+		display: inline-block;
+	}
+}
