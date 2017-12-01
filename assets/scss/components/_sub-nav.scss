@@ -1,23 +1,76 @@
 .sub-nav {
+	padding-top: 14px;
+	padding-bottom: 18px;
+
+	@media screen and (min-width: 1400px) {
+		margin: 0 98px;
+	}
+
 	&__list-item {
 		span {
 			font-size: 16px;
 			line-height: 16px;
 			font-family: $font-Nexa;
 			color: $color-black;
+			margin-left: 10px;
+			
+			@media screen and (min-width: 1400px) {
+				font-size: 20px;
+				line-height: 22px;
+			}
+		}
+
+		@media screen and (min-width: 1400px) {
+			margin: 0 30px;
+			img {
+				width: 39px;
+				height: 39px;
+			}
+		}
+	}
+	&__hidden {
+		display: none;
+
+		@media screen and (min-width: 1400px) {
+			display: inline-block;
 		}
 	}
 	&__right {
 		span {
-			font-size: 16px;
-			line-height: 16px;
+			font-size: 20px;
+			line-height: 20px;
 			font-family: $font-Nexa;
 			color: $color-black;
+
+			@media screen and (min-width: 1400px) {
+				margin-right: 10px;
+			}
 		}
 		li a {
 			margin-left: 20px;
 			margin-right: 31px;
 			padding: 0;
+		}
+
+		@media screen and (min-width: 770px) and (max-width: 1399px) {
+			margin-left: 535px;
+			img {
+				margin-top: -6px;
+				margin-right: 10px;
+			}
+		}
+
+		@media screen and (min-width: 1400px) {
+			margin-left: 746px;
+			.sub-nav__right-contact {
+				font-size: 26px;
+				line-height: 26px;
+			}
+
+			img {
+				margin-top: -8px;
+				margin-right: 5px;
+			}
 		}
 	}
 }

@@ -1,41 +1,136 @@
 .hero {
+	position: relative;
+	&__image-container {
+		padding-left: 0; 
+	}
 	&__image {
-		background-image: url(../img/mobile-hero-bg.png);
-		background-size: 100%;
+		background-image: url(../img/hero-bg.png);
+		background-size: cover;
 		background-repeat: no-repeat;
 		width: 320px;
 		height: 140px;
-		margin-bottom: 40px;
-	}
-	&__content {
-		text-align: center;
-		.button {
-			width: 290px;
-			height: 45px;
+
+		@media screen and (max-width: 769px) {
 			margin-bottom: 40px;
-			img {
-				margin-left: 19px;
+		}
+
+		@media screen and (min-width: 770px) and (max-width: 1399px) {
+			background-image: url(../img/tablet-bg.png);
+			width: 768px;
+			height: 485px;
+		}
+
+		@media screen and (min-width: 1400px) {
+			width: 1170px;
+			height: 518px;
+			margin-top: 40px;
+		}
+	}
+
+	&--container {
+		.hero__content {
+			text-align: center;
+			padding: 18px;
+			.button {
+				width: 290px;
+				height: 45px;
+				margin: 0 auto;
+				margin-bottom: 40px;
+				display: block;
+				img {
+					margin-left: 19px;
+				}
+			}
+			p {
+				font-size: 20px;
+				line-height: 22px;
+				margin-bottom: 40px;
+				display: inline-block;
+			}
+			a {
+				color: $color-blue;
 			}
 		}
-		span {
-			font-size: 16px;
-			line-height: 24px;
-			margin: 0;
+		.hero__title {
+			margin-bottom: 20px;
+		}
+		.hero__text {
+			font-size: 20px;
+			line-height: 22px;
+			margin-bottom: 40px;
+			.registered {
+				font-size: 10px;
+			}
+		}
+		@media screen and (min-width: 769px) {
+			display: none;
+		}
+	}
+
+	&--container-two {
+		display: none;
+		top: -420px;
+		left: 48%;
+		background-color: white;
+		opacity: .9;
+		width: 551px;
+		height: 325px;
+
+		.hero__content {
+			text-align: left;
+			padding: 40px;
+			.button {
+				width: 290px;
+				height: 45px;
+				margin-top: -18px;
+				margin-bottom: 20px;
+				display: block;
+				img {
+					margin-left: 19px;
+				}
+			}
+			p {
+				font-size: 20px;
+				line-height: 22px;
+				margin-bottom: 38px;
+				display: inline-block;
+			}
+			a {
+				color: $color-blue;
+			}
+		}
+		.hero__title {
+			margin-bottom: 20px;
+		}
+		.hero__text {
+			font-size: 20px;
+			line-height: 22px;
+			margin-bottom: 40px;
+			.registered {
+				font-size: 10px;
+			}
+		}
+
+		@media screen and (min-width: 770px) and (max-width: 1399px) {
+			display: inline-block;
+			width: 414px;
+			height: 485px;
+			top: -485px;
+			left: 46%;
+		}
+
+		@media screen and (min-width: 1400px) {
 			display: inline-block;
 		}
-		a {
-			color: $color-blue;
-		}
 	}
-	&__title {
-		margin-bottom: 20px;
-	}
-	&__text {
-		font-size: 20px;
-		line-height: 22px;
-		margin-bottom: 40px;
-		.registered {
-			font-size: 10px;
-		}
-	}
+
+	
 }
+
+.row {
+	max-width: 1170px;
+}
+
+
+
+

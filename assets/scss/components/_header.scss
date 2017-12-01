@@ -1,12 +1,15 @@
 header {
 	display: none;
 	height: 36px;
+	margin-left: 5px;
 	margin-bottom: 21px;
+	margin-top: 11px;
 	
-	
+
 	.header-list {
 		list-style: none;
 		display: flex;
+		margin: 0 12px;
 		li a {
 			padding: 11px 7px;
 			font-size: 12px;
@@ -23,9 +26,19 @@ header {
 			}
 		}
 	}
+
+	ul.right.header-list {
+		@media screen and (min-width: 1400px) {
+			margin-right: 108px;
+		}
+	}
 	
 	@media screen and (min-width: 770px) {
 		/* reveal header in tablet view */
 		display: block;
+	}
+
+	@media screen and (min-width: 1400px) {
+		margin-left: 100px;
 	}
 }

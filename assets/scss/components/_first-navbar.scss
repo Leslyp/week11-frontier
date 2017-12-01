@@ -12,20 +12,24 @@
 		}
 		.menu {
 			margin-left: 25px;
+			margin-top: 5px;
 		}
+	}
+	&__list-item.special {
+		padding-top: 5px;
 	}
 
 	.first-sub-nav {
 		&__list {
 			display: flex;
+			margin-bottom: 0; 
 		}
 		&__list-item {
 			list-style: none;
 			span {
 				margin-left: 5px;
-				margin-right: 18px; 
+				margin-right: 20px; 
 			}
-			
 		}
 	}
 
